@@ -1,0 +1,27 @@
+.board_view {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  /* max-width: 100vh; */
+  transform: translateX(-50%);
+  background-color: darkslategray;
+}
+
+.board_view_grid {
+  position: relative;
+  display: grid;  
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-rows: 100px 1fr 100px;
+  width: 100%;
+  height: 100%;  
+}
+
+.corner {
+  background-color: coral;
+}
+
+.player_area {
+  background-color: darkviolet;
+}
